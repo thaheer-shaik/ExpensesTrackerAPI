@@ -1,0 +1,9 @@
+
+T
+java:S53441">Don't use the default "PasswordEncoder" relying on plain-text.(Ö˜ÔÚ
+‘
+java:S1128"vRemove this unused import 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'.(Æ­¹¬øÿÿÿÿ
+g
+java:S1128"QRemove this unused import 'org.springframework.security.web.SecurityFilterChain'.(Ï×ÜÌ
+n
+java:S1128"XRemove this unused import 'org.springframework.security.config.Customizer.withDefaults'.(ÃÒþ†
