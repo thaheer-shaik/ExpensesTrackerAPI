@@ -77,11 +77,9 @@ public class ExpenseServiceImpl implements ExpenseService {
         if (startDate == null) {
             startDate = new Date(0);
         }
-
         if (endDate == null) {
             endDate = new Date(System.currentTimeMillis());
         }
-
         return expenseRepo.findByUserIdAndDateBetween(userService.getLoggedInUser().getId(), startDate, endDate, page).toList();
     }
 
